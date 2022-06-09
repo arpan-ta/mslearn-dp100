@@ -1,0 +1,24 @@
+[2022-06-09T23:38:33.390285] Entering context manager injector.
+[2022-06-09T23:38:34.954305] context_manager_injector.py Command line Options: Namespace(inject=['ProjectPythonPath:context_managers.ProjectPythonPath', 'RunHistory:context_managers.RunHistory', 'TrackUserError:context_managers.TrackUserError'], invocation=['diabetes_training.py'])
+Script type = None
+[2022-06-09T23:38:34.959228] Entering Run History Context Manager.
+C:\Users\arpan\.azureml\envs\azureml_809a074975457de1dd27bdfcf2d79d61\lib\site-packages\azureml\history\_tracking.py:186: FutureWarning: MLflow support for Python 3.6 is deprecated and will be dropped in an upcoming release. At that point, existing Python 3.6 workflows that use MLflow will continue to work without modification, but Python 3.6 users will no longer get access to the latest MLflow features and bugfixes. We recommend that you upgrade to Python 3.7 or newer.
+  import mlflow
+[2022-06-09T23:38:41.214244] Current directory: C:\Users\arpan\AppData\Local\Temp\azureml_runs\mslearn-train-diabetes_1654817779_ea36f828
+[2022-06-09T23:38:41.219171] Preparing to call script [diabetes_training.py] with arguments:[]
+[2022-06-09T23:38:41.219171] After variable expansion, calling script [diabetes_training.py] with arguments:[]
+
+Loading Data...
+Training a logistic regression model with regularization rate of 0.01
+Accuracy: 0.774
+AUC: 0.8484914672371762
+
+
+[2022-06-09T23:38:44.467848] The experiment completed successfully. Finalizing run...
+[2022-06-09T23:38:44.467848] Start FinalizingInRunHistory
+[2022-06-09T23:38:44.472844] Logging experiment finalizing status in history service.
+Starting the daemon thread to refresh tokens in background for process with pid = 8624
+Cleaning up all outstanding Run operations, waiting 300.0 seconds
+2 items cleaning up...
+Cleanup took 0.730933666229248 seconds
+[2022-06-09T23:38:47.871183] Finished context manager injector.
