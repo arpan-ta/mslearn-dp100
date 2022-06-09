@@ -1,0 +1,25 @@
+[2022-06-09T22:54:07.886922] Entering context manager injector.
+Cannot provide tracer without any exporter configured.
+[2022-06-09T22:54:08.507023] context_manager_injector.py Command line Options: Namespace(inject=['ProjectPythonPath:context_managers.ProjectPythonPath', 'RunHistory:context_managers.RunHistory', 'TrackUserError:context_managers.TrackUserError'], invocation=['diabetes_experiment.py'])
+Script type = None
+[2022-06-09T22:54:08.510221] Entering Run History Context Manager.
+/azureml-envs/azureml_809a074975457de1dd27bdfcf2d79d61/lib/python3.6/site-packages/azureml/history/_tracking.py:186: FutureWarning: MLflow support for Python 3.6 is deprecated and will be dropped in an upcoming release. At that point, existing Python 3.6 workflows that use MLflow will continue to work without modification, but Python 3.6 users will no longer get access to the latest MLflow features and bugfixes. We recommend that you upgrade to Python 3.7 or newer.
+  import mlflow
+[2022-06-09T22:54:10.744540] Current directory: /azureml-run
+[2022-06-09T22:54:10.744568] Preparing to call script [diabetes_experiment.py] with arguments:[]
+[2022-06-09T22:54:10.744586] After variable expansion, calling script [diabetes_experiment.py] with arguments:[]
+
+Analyzing 10000 rows of data
+0    6656
+1    3344
+Name: Diabetic, dtype: int64
+
+
+[2022-06-09T22:54:16.288694] The experiment completed successfully. Finalizing run...
+[2022-06-09T22:54:16.288721] Start FinalizingInRunHistory
+[2022-06-09T22:54:16.290856] Logging experiment finalizing status in history service.
+Starting the daemon thread to refresh tokens in background for process with pid = 8
+Cleaning up all outstanding Run operations, waiting 300.0 seconds
+2 items cleaning up...
+Cleanup took 0.10537052154541016 seconds
+[2022-06-09T22:54:17.298168] Finished context manager injector.
